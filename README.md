@@ -65,6 +65,10 @@ resource "docker_container" "nginx" {
 ![изображение](https://github.com/Razbor/ter-homework01/assets/19568831/2ba8e629-c42e-469f-9f97-7e4ba38919a3)
 
 8. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ**, а затем **ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ** строчкой из документации [**terraform провайдера docker**](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs).  (ищите в классификаторе resource docker_image )
+![изображение](https://github.com/Razbor/ter-homework01/assets/19568831/abb3ef3c-2b44-4a13-a597-b6ee9b2eaa0c)
+Образ не удален из за опции Keep locally 
+![изображение](https://github.com/Razbor/ter-homework01/assets/19568831/24f84817-8895-4aa5-a031-83f98fbc5fe0)
+
 
 
 ------
